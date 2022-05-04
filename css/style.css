@@ -67,7 +67,7 @@ img {
     position: relative;
 }
 
-.slider::before{
+.slider:before{
     content: "";
     position: absolute;
     z-index: 1;
@@ -75,7 +75,7 @@ img {
     left: 0;
     width: 100%;
     background: rgba(0,0,0,0.5);
-    height: 300px
+    height: 100%
 }
 
 .slider__section {
@@ -145,6 +145,6 @@ img {
     padding: 10px;
     text-align: center;
     text-decoration: none;
-    width: 200px;
+    width: 150px;
     margin: 20px auto;
 }

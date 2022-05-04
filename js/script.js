@@ -18,7 +18,7 @@ h2[5].remove()
 
 let glasses = document.getElementById("glasses");
 
-let sale   = ["<a href='#'>On sale</a>","<a href='#'>Women glasses</a>", "<a href='#'>Man glasses</a>", "<a href='#'>Summer 2022</a>",];
+let sale   = ["<a href='./pages/index2.html'>On sale</a>",];
 
 for (const one of sale) {    
     let li = document.createElement("li");
